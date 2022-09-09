@@ -41,6 +41,11 @@ echo -ne "
 application_pacman=(
         'efibootmgr' 
         'networkmanager' 
+        'linux-lts'
+        'linux-lts-headers'
+        'linux-zen'
+        'linux-zen-headers'
+        'linux-firmware'
         'network-manager-applet'
         'dialog' 
         'wpa_supplicant' 
