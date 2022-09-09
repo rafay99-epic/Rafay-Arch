@@ -14,3 +14,6 @@ elif grep -E "AuthenticAMD" <<< ${proc_type}; then
     pacman -S --noconfirm --needed amd-ucode
     proc_ucode=amd-ucode.img
 fi
+
+
+printf "\e[1;32mDone! \e[0m"

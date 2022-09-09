@@ -24,7 +24,7 @@ function install()
 "
 
 
-
+printf "\e[1;32mDone! Type exit, umount -a and reboot.\e[0m"
 }
 
 # warning and Term Conditions
