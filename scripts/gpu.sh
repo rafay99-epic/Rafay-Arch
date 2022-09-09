@@ -16,3 +16,4 @@ elif grep -E "Intel Corporation UHD" <<< ${gpu_type}; then
 fi
 
 
+printf "\e[1;32mDone! \e[0m"
